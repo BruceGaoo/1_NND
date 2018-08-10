@@ -1,10 +1,10 @@
-N = 64;
-K = 32;
+N = 16;
+K = 4;
 N = num2str(N);
 K = num2str(K);
 
 % % NN
-% nn = csvread(['P_NN_', num2str(N), '_', num2str(K), '.csv'], 1, 0);
+% nn = csvread(['NN_', num2str(N), '_', num2str(K), '.csv'], 1, 0);
 % ebn0_nn = nn(:, 1);
 % fer_nn = nn(:, 2);
 % ber_nn = nn(:, 3);
